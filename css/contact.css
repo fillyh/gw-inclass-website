@@ -1,0 +1,22 @@
+/*** Start About Section ***/
+
+
+.form-container{
+    width:48%;
+    float:left;
+    padding:1% 1% 0 1%;
+}
+
+.map-container{
+    width:50%;
+    margin:0 auto;
+    background-color:black;
+    float:right;
+}
+
+.contact-section{
+    background-color: #2A9CFF;
+    height:900px;
+}
+/*** End About Section ***/
+
