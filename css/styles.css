@@ -1,0 +1,239 @@
+body{
+    margin:0 auto;
+    
+}
+
+/*** Sart Nav Styles ***/
+
+.main-nav{
+  height:80px;
+  background-color:#F2F2F2;
+  padding:10px 80px 10px 80px;
+  text-decoration: none;
+  
+  
+}
+
+.logo{
+  height:90%;
+
+}
+
+.nav-list{
+  float:right;
+  list-style:none;
+  margin-top:20px;
+  font-size:20px;
+  font-family:Arial;
+ 
+}
+
+.nav-item{
+  float:left;
+  margin-left:15px;
+}
+
+.nav-link{
+  text-decoration:none;
+  color:#404E59;
+}
+
+
+.nav-link:hover{
+    color: #2A9CFF;
+}
+
+
+/*** Sart Nav Styles ***/
+
+/*** Hero Section ***/
+h1{
+    font-size: 35px;
+    margin: 0;
+}
+.hero{
+    height:800px;
+    background:url("../img/hero-image.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ecf0f1;
+    margin-top:0;
+    position:relative;
+}
+.hero-text{
+ margin: 0;
+ text-align:left;
+ padding: 10px 0px 0px 0px;
+ color:#FFF;  
+ font-family: sans-serif;
+ 
+}
+
+.text-container{
+ background-color:rgba(0,0,0,0.5);
+ padding: 20px 100px 20px 30px;
+  color:white;
+  width:33%;
+  margin:0;
+  position:absolute;
+  right:0;
+  top:35%;
+  
+}
+
+.hero-copy{
+  font-size:22px;
+  line-height:141%;
+  font-family:sans-serif;
+  margin-top:5px;
+  
+}
+/*** End Hero Section ***/
+
+/*** Start Column Section ***/
+
+.column-container{
+    padding: 0;
+    background-color: white;
+    
+}
+
+
+.column-container:after{
+    content:"";
+    display:block;
+    clear:both;
+    
+}
+
+.column{
+    width:21.33%;
+    float:left;
+    margin:0%;
+    padding:1% 6%;
+    text-align: center;
+}
+
+.column-image{
+    width:35%;
+}
+
+.title{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.p1{
+    color:grey;
+    font-family: sans-serif;
+    line-height: 150%;
+    
+}
+
+
+/*** End Column Section ***/
+
+/*** Start Link Section ***/
+.link-column{
+    width:50%;
+    float:left;
+    text-align: center;
+    height:200px;
+    background-color:#0367A6;
+    font-size: 30px;
+    padding-top:120px; 
+}
+
+.link{
+    padding:25px 0;
+    color:white;
+    text-decoration:none;
+    font-family: sans-serif;
+}
+
+/*** End Link Section ***/
+
+/*** Start Footer Section ***/
+.footer{
+    height:100px;
+  background-color:black;
+ 
+}
+.p2{
+  padding-top:30px;
+  text-align:center;
+  color:white;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.diamond-container {
+  height: 90px;
+  width: 5%;
+  float:left;
+  padding:10px 0 0 0;
+}
+
+.box {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  
+}
+
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
+
+.center{
+    margin:0 auto;
+
+}
+
+.personal-info{
+  width:45.5%;
+  
+  
+}
+
+.copyright{
+  width:45.5%;
+  float:right;
+  
+
+}
+
+.facebook .fa{
+    color:white;
+    font-size:24px;
+}
+
+.behance .fa{
+    color:white;
+    font-size:24px;
+}
+.linkedin .fa{
+    color:white;
+    font-size:24px;
+}
+
+.instagram .fa{
+    color:white;
+    font-size:24px;
+}
+
+
+
+
+/*** End Footer Section ***/
